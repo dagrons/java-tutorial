@@ -1,15 +1,16 @@
 package org.example.synchronization;
 
+
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public class One2HundredRWLock {
+
     private volatile int counter = 0;
     private ReadWriteLock lock = new ReentrantReadWriteLock();
     private Lock rlock = lock.readLock();
     private Lock wlock = lock.writeLock();
-
 
     class Printer implements Runnable {
 
@@ -24,7 +25,7 @@ public class One2HundredRWLock {
             while (true) {
                 rlock.lock(); // 用rlock和wlock拆分临界区
                 if (counter > 100) {
-                    return ;
+                    return;
                 }
                 if (counter % 10 != threadId) {
                     rlock.unlock();
