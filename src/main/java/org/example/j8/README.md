@@ -25,3 +25,19 @@ stream主要都是api，也不乏一些重要的概念，我们先明确一些�
 > 
 > R is the type of return value
 
+
+# 然后是项目时间
+
+设计一个从xml中读取数据的DAO层
+
+mock data
+
+@data class
+
+interface design 
+
+implementations
+
+
+
+

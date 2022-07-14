@@ -10,10 +10,10 @@
 
 理解submit和execute的区别
 
-理解Comp了tableFuture其实就是JavaScript中的Promise，能利用CompletableFuture完成串行调用和并行调用
+理解Comp了tableFuture其实就是JavaScript中的Promise，能利用CompletableFuture完成串行调用和并行调用，
+利用Promise我们可以定义actions之前的依赖关系
 
 理解ForkJoin是Java提供的并行计算框架，能利用ForkJoin完成对单线程算法的优化，比如：mergeSort, Fibnacci
 
 理解`RecursiveTask<T>, RecursiveAction`，以及他们的区别
-
 
