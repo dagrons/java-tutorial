@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3d81c1b-b1af-4998-89c7-f7ad52cb39f7" name="Changes" comment="">
+    <list default="true" id="b3d81c1b-b1af-4998-89c7-f7ad52cb39f7" name="Changes" comment="optimize(ListNode): optmize imports">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l9.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/leetcode/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit3 Test Class" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -102,9 +111,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.l2Test.testAddTwoNumbers">
-    <configuration name="ListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.ListNode" />
+  <component name="RunManager" selected="Application.l14">
+    <configuration name="l11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l11" />
       <module name="wrappers" />
       <extension name="coverage">
         <pattern>
@@ -116,7 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="l12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l12" />
       <module name="wrappers" />
       <extension name="coverage">
         <pattern>
@@ -124,14 +134,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l1Test" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l1Test.testTwoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="l13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l13" />
       <module name="wrappers" />
       <extension name="coverage">
         <pattern>
@@ -139,15 +147,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l1Test" />
-      <option name="METHOD_NAME" value="testTwoSum" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l2Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="l14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l14" />
       <module name="wrappers" />
       <extension name="coverage">
         <pattern>
@@ -155,14 +160,12 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l2Test" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l2Test.testAddTwoNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="l9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l9" />
       <module name="wrappers" />
       <extension name="coverage">
         <pattern>
@@ -170,21 +173,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.leetcode" />
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l2Test" />
-      <option name="METHOD_NAME" value="testAddTwoNumbers" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.l2Test.testAddTwoNumbers" />
-        <item itemvalue="Application.ListNode" />
-        <item itemvalue="JUnit.l2Test" />
-        <item itemvalue="JUnit.l1Test.testTwoSum" />
-        <item itemvalue="JUnit.l1Test" />
+        <item itemvalue="Application.l14" />
+        <item itemvalue="Application.l13" />
+        <item itemvalue="Application.l12" />
+        <item itemvalue="Application.l11" />
+        <item itemvalue="Application.l9" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +217,18 @@
       <workItem from="1657900014892" duration="42000" />
       <workItem from="1657900067825" duration="11000" />
       <workItem from="1657901297566" duration="465000" />
+      <workItem from="1657937433412" duration="972000" />
+      <workItem from="1657945793182" duration="38000" />
+      <workItem from="1657945930744" duration="10586000" />
     </task>
+    <task id="LOCAL-00001" summary="optimize(ListNode): optmize imports">
+      <created>1657937485528</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657937485528</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +245,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="optimize(ListNode): optmize imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimize(ListNode): optmize imports" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -244,6 +258,12 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="ss[p]" language="JAVA" />
+        <watch expression="ss[q]" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -251,6 +271,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/wrappers$l2Test_testAddTwoNumbers.ic" NAME="l2Test.testAddTwoNumbers Coverage Results" MODIFIED="1657898564525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>org.example.leetcode.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/wrappers$l5.ic" NAME="l5 Coverage Results" MODIFIED="1657947904705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>org.example.leetcode.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/wrappers$l1Test_testTwoSum.ic" NAME="l1Test.testTwoSum Coverage Results" MODIFIED="1657896148485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
