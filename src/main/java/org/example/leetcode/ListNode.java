@@ -1,9 +1,5 @@
 package org.example.leetcode;
 
-import java.lang.reflect.Array;
-import java.util.Arrays;
-import java.util.List;
-
 public class ListNode {
     int val;
     ListNode next;
