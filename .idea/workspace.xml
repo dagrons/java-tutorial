@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3d81c1b-b1af-4998-89c7-f7ad52cb39f7" name="Changes" comment="optimize(ListNode): optmize imports">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l12.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l13.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l14.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l16.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/l19.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/leetcode/l15Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit3 Test Class" />
         <option value="package-info" />
+        <option value="JUnit3 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -45,32 +42,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit3&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3&quot;: &quot;junit.framework.TestCase&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/heyuehui/IdeaProjects/wrappers/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit3",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3": "junit.framework.TestCase",
+    "jdk.selected.JAVA_MODULE": "18",
+    "last_opened_file_path": "/Users/heyuehui/IdeaProjects/wrappers/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mongo&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mongo"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources" />
@@ -111,9 +108,9 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.l14">
-    <configuration name="l11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l11" />
+  <component name="RunManager" selected="Application.l19">
+    <configuration name="l19" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l19" />
       <module name="wrappers" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l12" />
+    <configuration name="org.example.leetcode.l15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l15" />
       <module name="wrappers" />
       <extension name="coverage">
         <pattern>
@@ -138,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l13" />
+    <configuration name="org.example.leetcode.l17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l17" />
       <module name="wrappers" />
       <extension name="coverage">
         <pattern>
@@ -151,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l14" />
+    <configuration name="org.example.leetcode.l18" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l18" />
       <module name="wrappers" />
       <extension name="coverage">
         <pattern>
@@ -164,8 +161,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="l9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l9" />
+    <configuration name="l15Test.testThreeSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="wrappers" />
       <extension name="coverage">
         <pattern>
@@ -173,28 +169,32 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.leetcode" />
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.l15Test" />
+      <option name="METHOD_NAME" value="testThreeSum" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.l14" />
-        <item itemvalue="Application.l13" />
-        <item itemvalue="Application.l12" />
-        <item itemvalue="Application.l11" />
-        <item itemvalue="Application.l9" />
+        <item itemvalue="Application.l19" />
+        <item itemvalue="Application.org.example.leetcode.l18" />
+        <item itemvalue="Application.org.example.leetcode.l17" />
+        <item itemvalue="Application.org.example.leetcode.l15" />
+        <item itemvalue="JUnit.l15Test.testThreeSum" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
+    <task id="Default" summary="Default task">
       <changelist id="b3d81c1b-b1af-4998-89c7-f7ad52cb39f7" name="Changes" comment="" />
       <created>1657522625485</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1657522625485</updated>
+      <updated>1658050105213</updated>
       <workItem from="1657522626583" duration="2760000" />
       <workItem from="1657525394898" duration="9773000" />
       <workItem from="1657544320309" duration="821000" />
@@ -219,14 +219,17 @@
       <workItem from="1657901297566" duration="465000" />
       <workItem from="1657937433412" duration="972000" />
       <workItem from="1657945793182" duration="38000" />
-      <workItem from="1657945930744" duration="10586000" />
+      <workItem from="1657945930744" duration="10630000" />
+      <workItem from="1658048761488" duration="1339000" />
     </task>
-    <task id="LOCAL-00001" summary="optimize(ListNode): optmize imports">
+    <task active="true" id="LOCAL-00001" summary="optimize(ListNode): optmize imports">
+      <changelist id="b3d81c1b-b1af-4998-89c7-f7ad52cb39f7" name="Changes" comment="optimize(ListNode): optmize imports" />
       <created>1657937485528</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1657937485528</updated>
+      <updated>1658050105213</updated>
+      <workItem from="1658050105619" duration="12261000" />
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
@@ -258,12 +261,6 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="ss[p]" language="JAVA" />
-        <watch expression="ss[q]" language="JAVA" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
